@@ -1,0 +1,46 @@
+
+.title {
+    margin-left: 1em;
+}
+
+.row {
+  float: right;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  margin-right: 15%;
+}
+
+.searh-input {
+  outline: none;
+  border: 1px solid #CCC;
+  padding: 8px 10px;
+  border-radius: 3px;
+}
+
+
+.mt-1 {
+    width: 70%;
+    margin-top: 2rem;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+table {
+  width: 100%;
+  
+}
+
+.searh-input {
+  outline: none;
+  border: 1px solid #CCC;
+  padding: 8px 10px;
+  border-radius: 3px;
+}
+
+.searh-input:active {
+  border: 1px solid #BBB;
+}
+
+.searh-input:focus {
+  border: 1px solid #AAA;
+}
