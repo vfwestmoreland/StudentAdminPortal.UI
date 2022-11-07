@@ -52,9 +52,10 @@ import { TopNavComponent } from './Layout/top-nav/top-nav.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ObserversModule } from '@angular/cdk/observers';
 import { FormsModule } from '@angular/forms';
+import { ViewStudentComponent } from './students/view-student/view-student.component';
 
 @NgModule({
-  declarations: [AppComponent, TopNavComponent, StudentsComponent],
+  declarations: [AppComponent, TopNavComponent, StudentsComponent, ViewStudentComponent],
   imports: [
     FormsModule,
     BrowserModule,

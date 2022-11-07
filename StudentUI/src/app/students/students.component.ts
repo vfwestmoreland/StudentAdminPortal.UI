@@ -12,7 +12,7 @@ import { MatSort } from '@angular/material/sort';
 })
 export class StudentsComponent implements OnInit {
   students: Student[] = [];
-  displayedColumns: string[] = ['firstName', 'lastName', 'dateOfBirth', 'email', 'phoneNumber','gender'];
+  displayedColumns: string[] = ['firstName', 'lastName', 'dateOfBirth', 'email', 'phoneNumber','gender', 'edit'];
   dataSource: MatTableDataSource<Student> = new MatTableDataSource<Student>();
   @ViewChild(MatPaginator) matPaginator!: MatPaginator;
   @ViewChild(MatSort) matSort!: MatSort;
@@ -30,6 +30,7 @@ export class StudentsComponent implements OnInit {
       complete: () => console.log(),
     });
   }
+  
   filterStudents() {
     this.dataSource.filter = this.filterString.trim().toLowerCase()
   }
